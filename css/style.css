@@ -493,6 +493,15 @@ button {
   height: 100%;
 } */
 
+.banner {
+  background: url(../images/banner_bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #200604;
+  background-blend-mode: soft-light;
+}
+
 .banner_img {
   height: 100vh;
   position: relative;
@@ -589,12 +598,15 @@ button {
   text-align: center;
   text-transform: uppercase;
   font-family: var(--bodyFontPoppins);
+  color: #fdadda;
   /*font-family: var(--bodyFontNimbus);*/
 }
 
 .banner_text_center h1 span {
-  -webkit-text-stroke: 2px var(--colorBlack);
-  -webkit-text-fill-color: #ffffff00;
+  /*-webkit-text-stroke: 2px var(--colorBlack);
+  -webkit-text-fill-color: #ffffff00;*/
+  -webkit-text-stroke: 2px #fdadda;
+  -webkit-text-fill-color: #fdadda00;
 }
 
 .banner_text_bottom {
@@ -697,17 +709,19 @@ button {
 
 .about_text .description {
   font-weight: 600;
-  font-size: 36px;
+  font-size: 24px;
   position: relative;
-  padding-top: 75px;
+  /*padding-top: 75px;*/
   margin-bottom: 25px;
 }
 
 .about_text strong {
-  font-family: var(--BodyFontPoppins)	
+  font-family: var(--bodyFontPoppins);
+  text-transform: uppercase;
+  font-size: 4em;
 }
 
-.about_text .description::after {
+/*.about_text .description::after {
   position: absolute;
   content: "";
   background: url(../images/about_shapes.png);
@@ -718,7 +732,7 @@ button {
   height: 40px;
   top: 0;
   left: 0;
-}
+}*/
 
 .about_text ul {
   display: flex;
