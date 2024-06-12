@@ -12,7 +12,8 @@
 
   .section_heading h2,
   .section_heading h2 span {
-    font-size: 58px;
+    /*font-size: 58px;*/
+	font-size: 36px;
   }
 
   .services_text p {
@@ -85,7 +86,8 @@
 
   .section_heading h2,
   .section_heading h2 span {
-    font-size: 48px;
+    /*font-size: 48px;*/
+	/*font-size: 58px;*/
   }
 
   .services_text p {
@@ -253,7 +255,7 @@
 
   .section_heading h2,
   .section_heading h2 span {
-    font-size: 42px;
+    /*font-size: 42px;*/
   }
 
   .skills h2 {
@@ -533,11 +535,11 @@
 
   .section_heading h2,
   .section_heading h2 span {
-    font-size: 32px;
+    /*font-size: 32px;*/
   }
 
   .section_heading {
-    padding: 40px 0px 40px 0px;
+    /*padding: 40px 0px 40px 0px;*/
   }
 
   .about_text .description {

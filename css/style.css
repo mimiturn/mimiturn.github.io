@@ -47,8 +47,9 @@ CSS TABLE OF CONTENTS
   --paraColor: #360a06;
   --colorBlack: #200604;
   --colorWhite: #f4f2eb;
-  --bodyFont: "Sora", sans-serif;
+  /*--bodyFont: "Sora", sans-serif;*/
   /*--bodyFontPoppins: "Poppins", sans-serif;*/
+  --bodyFont: "neue-haas-unica", sans-serif;
   --bodyFontPoppins: "nimbus-sans-extended", sans-serif;	
   --bodyFontNimbus: "nimbus-sans-extended", sans-serif;
 }
@@ -135,7 +136,8 @@ button {
 
 .section_heading {
   background: var(--colorBlack);
-  padding: 52px 0;
+  /*padding: 52px 0;*/
+  padding: 1px 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -143,17 +145,21 @@ button {
 
 .section_heading h2,
 .section_heading h2 span {
-  color: var(--colorWhite);
+  /*color: var(--colorWhite);*/
+  color: #fdadda;
   font-family: var(--bodyFontPoppins);
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 80px;
+  /*font-size: 80px;*/
+  font-size: 36px;
   text-align: center;
 }
 
 .section_heading h2 span {
-  -webkit-text-stroke: 1px #ffffff;
-  -webkit-text-fill-color: #ffffff00;
+  /*-webkit-text-stroke: 1px #ffffff;
+  -webkit-text-fill-color: #ffffff00;*/
+  -webkit-text-stroke: 1px #fdadda;
+  -webkit-text-fill-color: #fdadda00;
   margin: 0 25px;
 }
 
@@ -1749,8 +1755,10 @@ footer {
 }
 
 .faq .title {
+  font-family: var(--bodyFontPoppins);
+  text-transform: uppercase;
   text-align: center;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 80px;
   margin-bottom: 30px;
 }
@@ -1765,7 +1773,8 @@ footer {
 }
 
 .faq_area .accordion-header button {
-  background: #e1eaf4;
+  /*background: #e1eaf4;*/
+  background: #fdadda;
   border: none !important;
   font-size: 22px;
   font-weight: 700;
