@@ -886,6 +886,14 @@ button {
   border-bottom: 1px solid #fff7;
 }
 
+#past {
+	background-color: #d9d7d4;
+	color: #403333;
+}
+#past .title span {
+	color: #403333;
+}
+
 .experience_text ul li:last-child {
   border: none;
 }
