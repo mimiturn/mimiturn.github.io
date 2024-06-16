@@ -1012,10 +1012,20 @@ button {
 /* portfolio end */
 
 /* services start */
+.dark {
+  background-color: var(--colorBlack);
+  color: var(--colorWhite);
+}
+.dark a {
+  color: #fdadda;
+  text-decoration: underline;
+}
 .services_text p {
   font-weight: 600;
   font-size: 36px;
+  margin-top: 30px;
   position: relative;
+  text-align: center;
 }
 
 .services_text .service_item {
@@ -1024,7 +1034,7 @@ button {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 40px 0px;
+  padding: 10px 0px;
   border-top: 1px solid rgba(17, 16, 19, 0.1);
   color: unset;
   gap: 20px;
@@ -1649,6 +1659,15 @@ footer {
 /*=============================
     SERVICES PAGE START
 =============================*/
+.services .title {
+  font-family: var(--bodyFontPoppins);
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 900;
+  font-size: 80px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
 .single_services {
   background: var(--colorWhite);
   padding: 60px 50px;
