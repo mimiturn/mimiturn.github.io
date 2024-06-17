@@ -1382,7 +1382,7 @@ footer {
 
 .footer_heading ul li::after {
   position: absolute;
-  content: "/";
+  content: "";
   color: var(--colorWhite);
   font-weight: 600;
   font-size: 32px;
