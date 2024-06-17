@@ -2,11 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" >
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi"
-    >
-    <title>Petrix - Personal Portfolio HTML Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi">
+    <title>About Me - Mimi Turner - Inside Flow and Power Flow Yoga Teacher</title>
+	<!-- Nimbus Sans Adobe Font -->
+	<link rel="stylesheet" href="https://use.typekit.net/dao7gyg.css">
     <link rel="icon" type="image/png" href="images/favicon.png" >
     <link rel="stylesheet" href="css/plugin.css" >
     <link rel="stylesheet" href="css/icon.css" >
@@ -23,26 +22,27 @@
       <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
         <path id="svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
       </svg>
-      <h5 class="preloader-text">Loading</h5>
+      <h5 class="preloader-text"></h5>
     </div>
     <!--================================
         PRELOADER END
     =================================-->
+
     <!--========================
         MENU START
     =========================-->
-    <nav class="navbar navbar-expand-lg main_menu">
+    <nav class="navbar navbar-expand-sm main_menu">
       <div class="container container_large">
-        <a class="navbar-brand" href="index.html">
-          <img src="images/logo.png" alt="Petrix" class="img-fluid w-100" >
-        </a>
+        <!--<a class="navbar-brand" href="index.html">
+          <img src="images/logo.png" alt="logo" class="img-fluid" >
+        </a>-->
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
-          aria-expanded="false"
+          aria-expanded="true"
           aria-label="Toggle navigation"
         >
           <i class="fa-sharp fa-sharp fa-regular fa-bars menu_icon_bar"></i>
@@ -51,54 +51,26 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav m-auto">
             <li class="nav-item">
-              <a class="nav-link text_hover_animaiton" href="index.html"
+              <a class="nav-link active text_hover_animaiton" href="index.html"
                 >Home
               </a>
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link text_hover_animaiton active"
-                href="about_us.html"
-                >About Me</a
-              >
+              <a class="nav-link text_hover_animaiton" href="about.html"
+                >About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text_hover_animaiton" href="#"
-                >Portfolio <i class="far fa-angle-down"></i
-              ></a>
-              <ul class="droap_menu">
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="portfolio_details.html">Portfolio Details</a></li>
-              </ul>
+              <a class="nav-link text_hover_animaiton" href="teacher_training.html"
+                >Teacher Training</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text_hover_animaiton" href="#"
-                >Services <i class="far fa-angle-down"></i
-              ></a>
-              <ul class="droap_menu">
-                <li><a href="services.html">Services</a></li>
-                <li><a href="service_details.html">Service Details</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text_hover_animaiton" href="#"
-                >Blog <i class="far fa-angle-down"></i
-              ></a>
-              <ul class="droap_menu">
-                <li><a href="blog_grid.html">Blog Grid</a></li>
-                <li><a href="blog_list.html">Blog List</a></li>
-                <li><a href="blog_details.html">Blog Details</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text_hover_animaiton" href="contact_us.html"
-                >Contact</a
-              >
+              <a target="_blank" class="nav-link text_hover_animaiton" href="https://mailchi.mp/mimi-turner/inside-flow-teacher-training-waitlist"
+                >Waitlist</a>
             </li>
           </ul>
-          <div class="right_menu">
-            <a href="contact_us.html" class="btn_hover">Let's Talk</a>
-          </div>
+          <!--<div class="right_menu">
+            <a target="_blank" href="https://mailchi.mp/mimi-turner/inside-flow-teacher-training-waitlist" class="btn_hover">Join the waitlist!</a>
+          </div>-->
         </div>
       </div>
     </nav>
@@ -136,7 +108,7 @@
             <div class="col-xl-5 col-md-6">
               <div class="about_img">
                 <img
-                  src="images/about_img.png"
+                  src="images/about_img.jpg"
                   alt="about"
                   class="img-fluid w-100" >
               </div>
@@ -144,10 +116,11 @@
             <div class="col-xl-7 col-md-6">
               <div class="about_text">
                 <p class="description text-anim">
-                  Hello! I’m David Petrix. Web designer from USA, California,
-                  San Francisco. I have rich experience in web site design and
-                  building, lso I am good at wordpress. I love to talk with you
-                  about our unique.
+                  I'm Mimi! I teach yoga, specifically Inside Flow and Power Flow.
+				  I like to move my body intentionally to feel connected to myself.
+			      Off the mat, I enjoy goofing off with my husband (Chris),
+				  dog (Valentine aka V-Dawg) &amp; cat (Ellie G named after Ellie Goulding).
+				  I try to read and drink sparkling water as much as I can.
                 </p>
                 <ul>
                   <li class="fade_right" data-trigerId="about">
@@ -398,38 +371,6 @@
     =========================-->
 
     <!--========================
-        CONTACT BOX START
-    =========================-->
-    <section class="contact_box pb_120 xs_pb_80">
-      <div class="section_heading section_heading_2">
-        <div class="container-fluid">
-          <h2>
-            Let's talk <span>Let's talk</span> Let's talk
-            <span>Let's talk</span>
-          </h2>
-        </div>
-      </div>
-      <div class="container mt_105 xs_mt_65">
-        <div class="row">
-          <div class="col-xl-10 col-md-10 m-auto">
-            <div class="contact_box_text">
-              <h2 class="has-animation">
-                Do you have a question, an idea, or a project you need help
-                with? Contact us!
-              </h2>
-              <a href="contact_us.html" class="btn_hover contact_btn"
-                >Contact Form</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--========================
-        CONTACT BOX END
-    =========================-->
-
-    <!--========================
         FOOTER START
     =========================-->
     <footer id="footer" style="background: url(images/golden_bg.jpg)">
@@ -437,18 +378,21 @@
         <div class="container">
           <ul>
             <li>
-              <a href="mailto:info@demo.com">info@demo.com</a>
+              <a href="mailto:hello@mimi-turner.com">hello@mimi-turner.com</a>
             </li>
             <li>
-              <p>14 tottenham road, london, england</p>
+              <a target="_blank" href="https://www.instagram.com/mimzzee/">instagram</a>
             </li>
             <li>
+              <p>oklahoma city, oklahoma</p>
+            </li>
+            <!--<li>
               <a href="callto:+1(0)987654321">+1(0) 987 654 321</a>
-            </li>
+            </li>-->
           </ul>
         </div>
       </div>
-      <div class="footer_link">
+      <!--<div class="footer_link">
         <div class="container">
           <ul>
             <li class="fade_bottom" data-trigerId="footer">
@@ -473,19 +417,19 @@
             </li>
           </ul>
         </div>
-      </div>
+      </div>-->
       <div class="footer_copyright">
         <div class="container">
           <div class="footer_copyright_text">
-            <p>Copyright © 2023 Petrix. All rights reserved.</p>
-            <ul>
+            <p>Copyright &copy; 2024 Mimi Turner - All rights reserved.</p>
+            <!--<ul>
               <li>
                 <a href="#" class="text_hover_animaiton">Terms & Condition </a>
               </li>
               <li>
                 <a href="#" class="text_hover_animaiton">Privacy Policy</a>
               </li>
-            </ul>
+            </ul>-->
             <a class="scroll_button" href="#body"
               ><i class="fa-light fa-arrow-up"></i
             ></a>
