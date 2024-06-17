@@ -223,6 +223,7 @@ button {
   text-transform: uppercase;
   font-weight: 800;
   font-size: 150px;
+  line-height: .9em;
 }
 
 .breadcrumb span {
