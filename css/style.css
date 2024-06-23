@@ -217,6 +217,24 @@ button {
   text-align: center;
 }
 
+.teacher_train {
+  background: url("../images/train_bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fdadda;
+  background-blend-mode: screen;
+}
+
+.about_me {
+  background: url("../images/about_bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fdadda;
+  background-blend-mode: screen;
+}
+
 .breadcrumb h1 {
   font-family: var(--bodyFontPoppins);
   text-align: center;
@@ -390,7 +408,7 @@ button {
   transition: all linear 0.3s;
   margin: 0;
   padding: 0 25px;
-  display: flex;
+  display: block;
   align-items: center;
 }
 
@@ -726,7 +744,7 @@ button {
 .about_text strong {
   font-family: var(--bodyFontPoppins);
   text-transform: uppercase;
-  font-size: 4em;
+  font-size: 2em;
   line-height: .9em;
 }
 
@@ -1667,7 +1685,8 @@ footer {
   text-transform: uppercase;
   text-align: center;
   font-weight: 900;
-  font-size: 80px;
+  /*font-size: 80px;*/
+  font-size: 4.25em;
   margin-top: 0px;
   margin-bottom: 30px;
 }
@@ -2445,7 +2464,7 @@ footer {
 }
 
 .contact_form {
-  background: var(--colorBlack);
+  /*background: var(--colorBlack);*/
   padding: 60px;
   border-radius: 0px 0px 10px 10px;
   text-align: center;
